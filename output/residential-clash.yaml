@@ -1,0 +1,12 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies: []
+proxy-groups:
+- name: PROXY
+  proxies: []
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891
